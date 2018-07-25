@@ -1,0 +1,20 @@
+name:                hconcepts
+version:             0.1.0.0
+synopsis:            ideas for common calculations
+-- description:
+homepage:            https://github.com/awall/hconcepts#readme
+author:              Adam Wall
+maintainer:          agcwall@gmail.com
+copyright:           2018 Adam Wall
+category:            Exploratory
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable hconcepts
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  default-extensions:  OverloadedStrings
+  build-depends:       base >= 4.7 && < 5
+                     , lens
